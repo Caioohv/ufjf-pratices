@@ -13,7 +13,7 @@ public:
     ListaCont(int tam);
     ~ListaCont();
 
-    Ponto get(int k);
+    int get(int k);
     void set(int k, int val);
     void insereFinal(int val);
     void insereK(int k, int val);
@@ -23,7 +23,7 @@ public:
     void removeInicio();
     void imprime();
     int getTamanho();
-    Ponto buscaMaior(int valor);
+    int buscaMaior(int valor);
     void limpar();
     void insereValores(int tam, int vet[]);
 };
